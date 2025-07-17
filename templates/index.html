@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Assistant</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #1c1c1c, #2c3e50);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 30px;
+    }
+    button {
+      font-size: 1.5em;
+      padding: 15px 30px;
+      background: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alexa Voice Assistant</h1>
+  <form action="/run" method="post">
+    <button type="submit">Talk</button>
+  </form>
+</body>
+</html>
